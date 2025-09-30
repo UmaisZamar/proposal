@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ek Khubsurat Peshkash — Proposal Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="left">
+        <div class="photo" id="photo">
+          <img id="photoImg" src="vania.jpg" alt="Photo">
+          <div class="overlay-heart">❤</div>
+        </div>
+      </div>
+      <div class="right">
+        <h1 id="title">Meri Jaan, kya aap mujh se shaadi karein gi?</h1>
+        <p class="lead">Ye chhota sa page maine khas aap ke liye banaya hai — sach kahun to meri har subah aapke khayal se shuru hoti hai.</p>
+
+        <div class="proposal-text" id="proposal">
+          Salam pyari,<br><br>
+          Jab bhi main aap ko dekhta hoon to lagta hai zindagi ne mujhe ek behtareen raasta dikha diya hai. Aap ki muskaan ne mere din badal diye, aur aap ke sath mustaqbil ka tasavvur mujhe sukoon deta hai.<br><br>
+          Kya aap mere sath zindagi ka safar shuru karein gi? Saath hansna, saath sochna, saath har chhoti badi baat share karna?<br>
+        </div>
+
+        <div class="actions">
+          <button class="btn-yes" id="yesBtn">Ji Haan 💍</button>
+          <button class="btn-no" id="noBtn">Sochungi</button>
+          <button class="btn-no" id="customBtn">Matn Tabdeel Karein</button>
+        </div>
+
+        <div class="footer-note">Agar aap "Ji Haan" keh deti hain to main hamesha koshish karunga ke aapko khush rakhun.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal">
+    <div class="modal-inner">
+      <h2 id="modalTitle">Shukriya!</h2>
+      <p id="modalMsg">Aap ka jawab dene ka bohat bohat shukriya.</p>
+      <img id="giftImg" src="" alt="Gift" style="display:none;"/>
+      <div style="margin-top:12px">
+        <button class="btn-yes" id="closeModal">Theek hai</button>
+      </div>
+    </div>
+  </div>
+
+  <canvas class="confetti-canvas" id="confetti"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
